@@ -1,0 +1,288 @@
+---
+title: "ESTADISTICA"
+subtitle: "TALLER #1"
+author: 
+  - name: Luz Marina Blanco<br>Nancy Roa Robledo
+    affiliation: "escuela de administracion publica ESAP"
+    affiliation-url: "https://www.esap.edu.co/"
+date: today
+lang: es
+title-block-banner: "#98b6ed"
+
+format:
+  html:
+    page-layout: full
+    fontsize: 14pt
+    toc: true
+    toc-location: right
+    number-sections: true
+    code-fold: true
+    code-summary: "Ver código"
+    theme: dark
+    highlight-style: monokai
+    html-math-method: katex
+    smooth-scroll: true
+    link-external-newwindow: true
+    code-overflow: scroll
+    favicon: favicon.ico
+    
+editor: visual
+
+knitr:
+  opts_chunk:
+    message: false
+    warning: false
+    fig.align: center
+    fig.width: 6
+    fig.height: 6
+    out.width: "70%"
+---
+
+
+<div style="position:absolute; top:10px; right:10px;">
+<img src="logo_esap.png" width="150">
+</div>
+
+<style>
+body{
+  background-color:#f7f6ed;
+  font-size:130%;
+  text-align:justify;
+}
+</style>
+
+
+
+#. ORIGEN DE LA ESTADISTICA
+
+Aunque el término "estadística" no se acuñó hasta el siglo XVIII, su origen práctico es casi tan antiguo como la civilización misma. Se puede dividir su nacimiento en tres vertientes que terminaron uniéndose:
+
+1. El Origen Administrativo (La estadística de Estado)
+Desde que los seres humanos se organizaron en sociedades complejas, necesitaron contar. El nombre proviene de la palabra latina status (estado).
+
+Sumeria y Babilonia: Utilizaban tablillas de arcilla para registrar la producción agrícola y el pago de tributos.
+
+Egipto: Los censos eran vitales para planificar la distribución de alimentos y la mano de obra para las grandes construcciones.
+
+Roma: Institucionalizaron el censo. Cada cinco años, el "Censor" registraba a la población y sus bienes; de esto dependía el estatus ciudadano y las obligaciones militares.
+
+2. El Origen del Término (Siglo XVIII)
+El salto de "contar cosas" a una disciplina académica ocurrió en Alemania:
+
+Gottfried Achenwall (1749): Es considerado el creador de la palabra Estadística (Statistik). Para él, era la "ciencia de las cosas que pertenecen al Estado". En ese momento, no se trataba de números complejos, sino de una descripción cualitativa y cuantitativa de la riqueza y el poder de una nación.
+
+3. El Origen Matemático (Probabilidad)
+Lo que hoy conocemos como estadística moderna nació cuando la necesidad del Estado de contar se cruzó con el estudio del azar:
+
+Los juegos de azar: En el siglo XVII, matemáticos como Blaise Pascal y Pierre de Fermat empezaron a calcular probabilidades para ganar en las apuestas.
+
+La Inferencia: Más tarde, científicos como Bernoulli, Gauss y Laplace aplicaron esos cálculos de azar a los datos reales. Descubrieron que los errores y los eventos naturales seguían ciertos patrones (como la curva de la "campana").
+
+¿Por qué surgió realmente?
+La estadística surgió por tres necesidades humanas fundamentales:
+
+Poder: Los gobernantes necesitaban saber cuántos hombres tenían para la guerra.
+
+Dinero: Los estados necesitaban saber a quién cobrar impuestos.
+
+Incertidumbre: Los científicos y comerciantes querían "predecir" el futuro o entender el riesgo.
+La evolución de la estadística es la historia de cómo la humanidad pasó de simplemente enumerar cosas a desarrollar algoritmos capaces de predecir el comportamiento humano y los fenómenos climáticos.
+
+EVOLUCION HISTORICA
+
+Se puede estructurar su evolución en cuatro grandes etapas:
+
+1. Fase de Enumeración (Desde la Antigüedad hasta el s. XVI)
+En esta etapa, la estadística era puramente descriptiva y se limitaba a inventarios de personas y bienes.
+
+Censos Militares y Fiscales: Civilizaciones como la de Mesopotamia, Egipto y Roma utilizaban la estadística para conocer el número de habitantes, reclutar soldados y calcular impuestos.
+
+Edad Media: Tras la caída de Roma, la técnica se mantuvo viva principalmente en los registros de propiedad de la Iglesia y en los inventarios de los señores feudales (como el Capitulario de Villis de Carlomagno).
+
+2. Fase de la Aritmética Política (Siglos XVII y XVIII)
+Aquí la estadística deja de ser solo una lista de datos para convertirse en una herramienta de análisis social.
+
+La Escuela Inglesa: John Graunt y William Petty introducen el análisis de datos. Por primera vez, se usan los registros de nacimientos y muertes para buscar patrones, descubriendo, por ejemplo, que la tasa de mortalidad era más alta en las ciudades que en el campo.
+
+Aparición del término: En 1749, Gottfried Achenwall acuña la palabra "Estadística" en Alemania, definiéndola como la ciencia de las cosas que pertenecen al Estado.
+
+3. Fase del Cálculo de Probabilidades (Siglos XVIII y XIX)
+Esta es la fase de la matematización. La estadística se une a la probabilidad, permitiendo pasar de los datos observados a la realización de inferencias (conclusiones generales).
+
+La Campana de Gauss: Matemáticos como Bernoulli, Laplace y Gauss desarrollan leyes matemáticas que explican cómo se distribuyen los errores y los eventos en la naturaleza.
+
+Estadística Social: Adolphe Quetelet aplica estas leyes a la sociología, argumentando que el comportamiento humano, a nivel de masas, sigue leyes matemáticas predecibles.
+
+4. Fase de la Inferencia y Era Digital (Siglo XX - Actualidad)
+Es la etapa de la estadística moderna, donde el foco se pone en tomar decisiones con datos incompletos.
+
+Inferencia Estadística: Ronald Fisher y Karl Pearson desarrollan métodos para diseñar experimentos científicos y validar si un resultado es fruto del azar o de una causa real.
+
+Computación y Big Data: Con la llegada de los ordenadores, la estadística evoluciona hacia el Data Science. Ya no se analizan pequeñas muestras, sino volúmenes masivos de datos en tiempo real.
+
+Inteligencia Artificial: Hoy, la estadística es la base del Machine Learning, donde los modelos aprenden de los datos históricos para predecir el futuro (clima, bolsa, diagnósticos médicos).
+APORTES DE CIVILIZACIONES ANTIGUAS:
+Aquí están los aportes más significativos de las grandes culturas:
+
+1. Mesopotamia (Sumerios y Babilonios)
+Fueron los pioneros en el registro de datos comerciales y agrícolas.
+
+Tablillas de arcilla: Utilizaban escritura cuneiforme para llevar cuentas precisas de la producción de grano, cabezas de ganado y el comercio de tierras.
+
+Organización del Estado: Estos registros permitían a los gobernantes planificar las raciones para los trabajadores y las reservas para tiempos de sequía.
+
+2. Egipto
+La estadística en Egipto estaba intrínsecamente ligada a la supervivencia y a la arquitectura monumental.
+
+Censos de Población: Realizaban recuentos constantes de la población para organizar la mano de obra necesaria para las pirámides y templos.
+
+Control del Nilo: Registraban anualmente los niveles de las crecidas del río Nilo. Estos datos permitían predecir la calidad de las cosechas y, en consecuencia, ajustar los impuestos que los agricultores debían pagar.
+
+3. China
+Los antiguos imperios chinos destacaron por su capacidad administrativa y burocrática.
+
+Censos Agrícolas y Comerciales: Se tiene registro de que el emperador Yao (aprox. 2238 a.C.) ordenó realizar un censo industrial, agrícola y comercial para conocer el estado de sus provincias.
+
+Confucio: En sus escritos, se menciona la importancia de los datos estadísticos para que un gobernante pueda mantener el orden y la prosperidad económica.
+
+4. Israel (Cultura Hebrea)
+Sus aportes quedaron documentados principalmente en textos sagrados.
+
+Libro de los Números: En la Biblia, este libro detalla el censo realizado por Moisés tras la salida de Egipto. El objetivo era puramente militar: conocer cuántos hombres mayores de 20 años eran aptos para el combate.
+
+Registros de Linaje: Llevaban un control estricto de las familias y tribus para la distribución de tierras y responsabilidades religiosas.
+
+5. Grecia
+Aunque los griegos destacaron más en la geometría y la lógica, aplicaron la estadística de forma estratégica.
+
+Censos de emergencia: Realizaban recuentos de ciudadanos en tiempos de guerra o hambruna para racionar víveres y organizar la defensa.
+
+Sustento de la Democracia: El recuento de votos y la división de la población en clases sociales según su riqueza fueron aplicaciones prácticas de la estadística para el gobierno de las ciudades-estado (polis).
+
+6. Roma
+Roma fue, sin duda, la civilización que más perfeccionó la estadística administrativa.
+
+La figura del Censor: Crearon un magistrado específico encargado de elaborar el censo cada cinco años.
+
+El "Status" del ciudadano: El censo romano no solo contaba personas, sino que clasificaba a cada ciudadano según su patrimonio, familia y estado civil. De estos datos dependía el pago de impuestos, el derecho al voto y la obligación de servir en las legiones.
+
+Registro de Vitalidad: Establecieron la obligatoriedad de registrar nacimientos y fallecimientos para mantener actualizados los datos demográficos del Imperio.
+
+DESARROLLO DE LA ESTADISTICA EN LA EDAD MODERNA
+
+Fue en este periodo donde nació la demografía, se perfeccionó el método científico y se crearon las leyes de la probabilidad.
+
+1. El Surgimiento de la Demografía: Los "Boletines de Mortalidad"
+Durante el siglo XVI y XVII, debido a las constantes epidemias de peste, ciudades como Londres empezaron a publicar registros semanales de fallecimientos.
+
+John Graunt (1662): Es considerado el padre de la demografía. Analizó estos boletines en su obra Natural and Political Observations, donde notó que nacían más niños que niñas y que la tasa de mortalidad era mayor en zonas urbanas que rurales. Fue el primero en usar datos del pasado para predecir eventos futuros.
+
+Caspar Neumann (1691): Este clérigo alemán demostró que la creencia de que las muertes aumentaban en años terminados en el número 7 era falsa. Sus datos fueron utilizados por el astrónomo Edmund Halley para crear la primera tabla de mortalidad con base científica, sentando las bases de los seguros de vida modernos.
+
+2. La Escuela de la "Aritmética Política"
+En el siglo XVII, en Inglaterra, surgió una corriente que buscaba aplicar el pensamiento matemático a los asuntos de gobierno.
+
+William Petty: Acuñó el término "Aritmética Política". Su idea era que el Estado no debía gobernarse por opiniones, sino por números, pesos y medidas. Para él, la estadística era la clave para medir la riqueza y el poder de una nación.
+
+3. El Nacimiento de la Probabilidad (Siglo XVII)
+Uno de los hitos más importantes de la Edad Moderna fue la unión de la estadística con el azar. Todo empezó con una consulta sobre juegos de dados.
+
+Pascal y Fermat: En su correspondencia de 1654, resolvieron problemas sobre cómo repartir las apuestas en un juego interrumpido. Esto creó el Cálculo de Probabilidades.
+
+Christian Huygens: Escribió el primer libro sobre probabilidad, aplicando estas ideas a problemas de juegos de azar y esperanza de vida.
+
+4. La Consolidación Académica y el Término "Estadística"
+Hacia finales de la Edad Moderna, la disciplina se formalizó en las universidades, especialmente en Alemania.
+
+Gottfried Achenwall (1749): Profesor de la Universidad de Gotinga, fue quien acuñó la palabra "Estadística" (Statistik). En ese entonces, la definía como "la ciencia de las cosas que pertenecen al Estado", enfocándose en la descripción cualitativa y cuantitativa de los países.
+
+5. El Desarrollo de la Teoría de Errores
+A finales del siglo XVIII, la estadística se volvió indispensable para la astronomía y la física.
+
+Thomas Bayes (1763): Introdujo el concepto de probabilidad subjetiva, permitiendo actualizar nuestras creencias a medida que obtenemos nuevos datos (Teorema de Bayes).
+
+Laplace y Gauss: Empezaron a trabajar en la "Ley Normal" o Campana de Gauss para explicar por qué las mediciones científicas siempre tienen un margen de error y cómo esos errores tienden a agruparse.
+
+IMPORTANCIA DE LA ESTADISTICA EN LA ACTUALIDAD
+
+la estadística ha dejado de ser una simple herramienta de recuento para convertirse en el "cerebro" detrás de la toma de decisiones en prácticamente todas las áreas de la vida humana. Vivimos en la era del Big Data, y la estadística es la ciencia que permite transformar ese mar de datos en información útil.
+
+Aquí te detallo su importancia en los pilares fundamentales de nuestra sociedad:
+
+1. En la Toma de Decisiones Empresariales
+Las empresas ya no operan por "intuición". La estadística permite:
+
+Análisis de Mercado: Entender qué quiere el consumidor antes de que él mismo lo sepa.
+
+Control de Calidad: Identificar fallos en la producción de una fábrica sin tener que revisar cada producto uno por uno, usando técnicas de muestreo.
+
+Optimización de Procesos: Reducir costos y tiempos de entrega analizando las rutas de logística y el rendimiento de los empleados.
+
+2. En la Salud y la Ciencia
+La medicina moderna es, en esencia, estadística aplicada.
+
+Ensayos Clínicos: Ninguna vacuna o medicamento sale al mercado sin pruebas estadísticas que demuestren que es seguro y efectivo, diferenciando sus efectos del azar (el famoso "placebo").
+
+Epidemiología: Permite predecir la propagación de enfermedades y planificar campañas de vacunación o prevención.
+
+Genética: El mapeo del genoma humano depende de algoritmos estadísticos para encontrar patrones en millones de secuencias de ADN.
+
+3. En la Inteligencia Artificial y la Tecnología
+La IA no es "magia", es estadística a gran escala.
+
+Algoritmos de Recomendación: Netflix o Spotify usan estadística para predecir qué película o canción te gustará basándose en tus datos pasados.
+
+Machine Learning: Los modelos de aprendizaje automático se basan en distribuciones de probabilidad y regresiones para que las máquinas puedan "aprender" de la experiencia.
+
+4. En el Sector Público y la Política
+Para que un Estado funcione, debe conocerse a sí mismo a través de los datos.
+
+Políticas Públicas: Ayuda a los gobiernos a decidir dónde construir un hospital, una escuela o una carretera basándose en la densidad poblacional y proyecciones de crecimiento.
+
+Economía: Indicadores como el PIB, la inflación y el desempleo son datos estadísticos que dictan el rumbo de las finanzas de un país.
+
+LINEA DEL TIEMPO
+
+Edad Antigua: El Recuento de las Naciones (3000 a.C. - 476 d.C.)
+3000 a.C. (Babilonia/Egipto): Se registran datos sobre producción agrícola y censos de población para impuestos y mano de obra.
+
+2238 a.C. (China): El emperador Yao realiza censos industriales y comerciales.
+
+1450 a.C. (Israel): En la Biblia, el Libro de los Números detalla censos de guerreros por tribus.
+
+550 a.C. (Roma): El rey Servio Tulio establece los censos obligatorios cada cinco años para clasificar a los ciudadanos según su riqueza.
+
+🏰 Edad Media: Inventarios Feudales (476 - 1453)
+762 (Francia): Carlomagno ordena inventarios minuciosos de las propiedades de la Iglesia y las tierras del imperio.
+
+1086 (Inglaterra): Guillermo el Conquistador encarga el Domesday Book, el primer registro de propiedad, tierras y ganado en Inglaterra para fines fiscales.
+
+🔬 Edad Moderna: El Nacimiento de la Ciencia (1453 - 1789)
+1654: Blaise Pascal y Pierre de Fermat crean las bases del cálculo de probabilidades.
+
+1662: John Graunt publica el primer estudio demográfico basado en boletines de mortalidad en Londres.
+
+1691: Caspar Neumann utiliza datos reales para desmentir supersticiones sobre la muerte, sentando las bases de los seguros de vida.
+
+1749: Gottfried Achenwall acuña formalmente el término "Estadística" (Statistik).
+
+1763: Thomas Bayes presenta el teorema que permite actualizar probabilidades basado en nueva evidencia (Inferencia Bayesiana).
+
+📐 Siglo XIX: La Matematización (1789 - 1900)
+1805: Adrien-Marie Legendre crea el método de mínimos cuadrados, fundamental para el ajuste de datos.
+
+1809: Carl Friedrich Gauss desarrolla la distribución normal o "Campana de Gauss".
+
+1835: Adolphe Quetelet aplica la estadística a las ciencias sociales y crea el concepto del "hombre promedio".
+
+1888: Francis Galton introduce los conceptos de correlación y regresión.
+
+💻 Siglo XX y XXI: La Era de la Computación (1900 - Actualidad)
+1900: Karl Pearson desarrolla la prueba de Chi-cuadrado para la bondad de ajuste.
+
+1925: Ronald Fisher publica Statistical Methods for Research Workers, definiendo el diseño de experimentos modernos.
+
+1950 - 1980: Con la llegada de las computadoras, la estadística se vuelve masiva. Nace el análisis multivariado.
+
+2010 - Actualidad: Big Data y Machine Learning. La estadística se fusiona con la informática para crear modelos predictivos, redes neuronales y algoritmos que analizan trillones de datos en tiempo real.
+
